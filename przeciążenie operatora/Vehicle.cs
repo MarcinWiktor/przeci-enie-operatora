@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace przeciążenie_operatora
+{
+    public class Vehicle 
+    {
+        public virtual void Wrum()
+        {
+            Console.WriteLine("");
+        }
+        public virtual void Beep()
+        {
+            Console.WriteLine("");
+        }
+    }
+}
